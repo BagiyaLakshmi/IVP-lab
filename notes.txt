@@ -3,3 +3,25 @@ https://github.com/MuthuPalaniappan925/NLP-Dump/blob/main/ivp-end-sem-lab(1).ipy
 https://stackoverflow.com/questions/62623836/simple-way-to-detect-street-area-in-google-map-images-aerial-images
 
 https://github.com/Paulymorphous/skeyenet/blob/master/Src/Road_Detection_GPU.ipynb
+
+
+Activation Functions:
+
+Activation functions introduce non-linearities into neural networks, allowing them to learn complex patterns and relationships in the data. Here are some commonly used activation functions:
+ReLU (Rectified Linear Unit): ReLU is defined as 
+f(x)=max(0,x). It is simple, computationally efficient, and helps alleviate the vanishing gradient problem by avoiding saturation in the positive region.
+
+
+Sigmoid: Sigmoid activation function squeezes the input values into the range 
+(
+0
+,
+1
+)
+(0,1), which can be interpreted as probabilities. It is commonly used in the output layer of binary classification models. However, it suffers from vanishing gradients for extreme input values.
+
+
+Tanh (Hyperbolic Tangent): Tanh function squeezes the input values into the range 
+
+
+Gamma Correction: Gamma correction adjusts the brightness and contrast of an image by applying a non-linear transformation to the pixel intensities. It is often used to correct for the nonlinear response of display devices or to compensate for the nonlinear relationship between the intensity values and the perceived brightness in human vision
